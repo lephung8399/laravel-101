@@ -1,6 +1,8 @@
 {
     "version": 2,
-    "framework": null,
+    "framework": "php",
+    "buildCommand": "composer install && php artisan config:clear && php artisan view:clear",
+    "outputDirectory": "public",
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.6.0" }
     },
@@ -12,8 +14,8 @@
     ],
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "true",
-        "APP_URL": "https://hunglp8399.vercel.app",
+        "APP_DEBUG": "false",
+        "APP_URL": "https://laravel-101.vercel.app",
         "APP_KEY": "base64:2eqO4+g1KIaOiOBY5CziJ3m40JziwcttZzPYBu121F0=",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
