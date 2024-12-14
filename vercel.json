@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "framework": "php",
+    "framework": null,
     "buildCommand": "composer install && php artisan config:clear && php artisan view:clear",
     "outputDirectory": "public",
     "functions": {
